@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9956ECD1-BBFE-41B3-8D3A-9FACD26C2D24}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		gen.ps1 = gen.ps1
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JV.Lib.Integrations", "JV.Lib.Integrations\JV.Lib.Integrations.csproj", "{6F11EDF3-E767-4BB3-BFEF-08A90367FA9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JV.Lib.FinancialManagement", "JV.Lib.FinancialManagement\JV.Lib.FinancialManagement.csproj", "{17CE2853-D3C1-4C96-A71B-1D910AC0434A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JV.Lib.CashManagement", "JV.Lib.CashManagement\JV.Lib.CashManagement.csproj", "{77832783-96FB-48EC-8150-420644354241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JV.Lib.RevenueManagement", "JV.Lib.RevenueManagement\JV.Lib.RevenueManagement.csproj", "{F6701380-1573-41E9-B763-7E522FD64335}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Driver", "Driver\Driver.csproj", "{C7D78883-9A68-41E0-92F3-7129336D005A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D7E79B55-E11F-4E44-A879-54BE16557D65}"
+	ProjectSection(SolutionItems) = preProject
+		docs\svcutil.md = docs\svcutil.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JV.Lib.ResourceManagement", "JV.Lib.ResourceManagement\JV.Lib.ResourceManagement.csproj", "{B7367914-C4F0-46A0-8BC4-4D9516E059D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F11EDF3-E767-4BB3-BFEF-08A90367FA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F11EDF3-E767-4BB3-BFEF-08A90367FA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F11EDF3-E767-4BB3-BFEF-08A90367FA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F11EDF3-E767-4BB3-BFEF-08A90367FA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CE2853-D3C1-4C96-A71B-1D910AC0434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CE2853-D3C1-4C96-A71B-1D910AC0434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CE2853-D3C1-4C96-A71B-1D910AC0434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CE2853-D3C1-4C96-A71B-1D910AC0434A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77832783-96FB-48EC-8150-420644354241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77832783-96FB-48EC-8150-420644354241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77832783-96FB-48EC-8150-420644354241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77832783-96FB-48EC-8150-420644354241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6701380-1573-41E9-B763-7E522FD64335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6701380-1573-41E9-B763-7E522FD64335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6701380-1573-41E9-B763-7E522FD64335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6701380-1573-41E9-B763-7E522FD64335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D78883-9A68-41E0-92F3-7129336D005A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D78883-9A68-41E0-92F3-7129336D005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D78883-9A68-41E0-92F3-7129336D005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D78883-9A68-41E0-92F3-7129336D005A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7367914-C4F0-46A0-8BC4-4D9516E059D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7367914-C4F0-46A0-8BC4-4D9516E059D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7367914-C4F0-46A0-8BC4-4D9516E059D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7367914-C4F0-46A0-8BC4-4D9516E059D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7E79B55-E11F-4E44-A879-54BE16557D65} = {9956ECD1-BBFE-41B3-8D3A-9FACD26C2D24}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F07111F-2689-47B1-A978-9A938371CCC3}
+	EndGlobalSection
+EndGlobal

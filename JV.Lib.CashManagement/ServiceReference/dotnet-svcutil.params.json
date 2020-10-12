@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.1",
+  "options": {
+    "inputs": [
+      "https://wd5-impl-services1.workday.com/ccx/service/uw11/Cash_Management/v35.0/?wsdl"
+    ],
+    "namespaceMappings": [
+      "*, JV.Lib.CashManagement"
+    ],
+    "outputFile": "Reference.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
