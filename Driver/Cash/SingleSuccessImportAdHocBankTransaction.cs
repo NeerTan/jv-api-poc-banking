@@ -58,7 +58,7 @@ namespace Driver.Cash
                                     type = "Currency_ID"
                                 }
                             }
-                        },
+                        },                       
                         Bank_Account_Reference = new JV.Lib.CashManagement.Financial_AccountObjectType
                         {
                             ID = new JV.Lib.CashManagement.Financial_AccountObjectIDType[]
@@ -70,7 +70,7 @@ namespace Driver.Cash
                                 }
                             }
                         },
-                        Transaction_Amount = 13.15M,
+                        Transaction_Amount = 13.15M,                       
                         Journal_Source_Reference = new JV.Lib.CashManagement.Journal_SourceObjectType
                         {
                             ID = new JV.Lib.CashManagement.Journal_SourceObjectIDType[]

@@ -54,7 +54,7 @@ namespace Driver
 
             try
             {
-                var poc = new SingleSuccessImportAdHocBankTransaction(_cash, _logger);
+                var poc = new MultiSuccessImportAdHocBankTransaction(_cash, _logger);
 
                 var pass = await poc.Execute(stoppingToken);
 
